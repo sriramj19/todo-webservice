@@ -1,4 +1,3 @@
-var SampleController = require('./SampleController');
 var OutletController = require('./OutletController');
 
 
