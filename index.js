@@ -23,4 +23,8 @@ app.listen('1337', function () {
 });
 
 /*Define routes to handle all incoming routes*/
-routes(app);
+// routes(app);
+
+app.get('/', function() {
+  console.log('success.....')
+});
