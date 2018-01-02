@@ -13,13 +13,13 @@ mongoose.connect('mongodb://admin:admin@ds237707.mlab.com:37707/orp-todo', { use
   if (err) {
     console.log('###Something went wrong while establishing connection with the database ###: ', err)
   } else {
-    console.log('***Successful establishment of connection with the database***')
+    console.log('***Successful establishment of connection with the database***1')
   }
 });
 
 /*Set port to 3000*/
 app.listen('1337', function () {
-  console.log('Listening to port 1337...');
+  console.log('Listening to port 1337...1');
 });
 
 /*Define routes to handle all incoming routes*/
