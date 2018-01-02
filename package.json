@@ -1,18 +1,19 @@
 {
-  "name": "node-js-getting-started",
+  "name": "todo-webservice",
   "version": "0.3.0",
-  "description": "A sample Node.js app using Express 4",
+  "description": "A simple todolist",
   "engines": {
     "node": "8.9.1"
   },
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "node test.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "ejs": "^2.5.6",
-    "express": "^4.15.2"
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.6"
   },
   "devDependencies": {
     "request": "^2.81.0",
@@ -20,12 +21,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/sriramj19/todo-webservice"
   },
   "keywords": [
     "node",
     "heroku",
-    "express"
+    "express",
+    "todo"
   ],
   "license": "MIT"
 }
